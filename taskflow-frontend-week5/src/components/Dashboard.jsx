@@ -12,7 +12,7 @@ export default function Dashboard() {
   const [filter, setFilter] = useState('All');
 
   // Backend URL - Localhost for now, Deploy pe Render URL laga dena
-  const API_URL = "http://localhost:5000";
+  const API_URL = "https://week5-backend-xijv.onrender.com";
 
   useEffect(() => {
     setLoading(true);
